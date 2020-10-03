@@ -28,6 +28,9 @@ nav.navbar{
     background: none;
     color: #800000;
 }
+.navbar #secondnavbar ul li a{
+    font-family:Times, serif;
+}
 .navbar #firstnavbar ul li a:hover{
     background: none;
     color: #E4D588;
@@ -36,13 +39,14 @@ nav.navbar{
 }
 
 section.header {
-    margin-top:40px;
+    margin-top:0px;
     background: #800000;
 }
 section.header .carousel-text{
     background: #4f6e88;
     padding:20px 40px;
     color: #f5f5f5;
+    font-family:Times, serif;
 }
 section.header .carousel-text h1{
     margin-top: 0;
@@ -69,6 +73,7 @@ section.header a.btn, section .explanation a.btn {
   /* abiout us  */
   section.about-us{
       padding: 70px 10px;
+      font-family:Times, serif;
   }
   
   section.about-us p{
@@ -91,6 +96,7 @@ section.header a.btn, section .explanation a.btn {
 
   section.popular-courses{
       padding: 20px 10px;
+      font-family:Times, serif;
   }
   section.popular-courses .box{
     background: #fff;
@@ -98,6 +104,7 @@ section.header a.btn, section .explanation a.btn {
     box-shadow:2px 1px 10px 0.5px rgb(163, 161, 161);
     margin: 10px;
     transition:0.8s;
+    padding: 10px;
 }
 section.popular-courses a:hover{
 color: #ffffff;
@@ -137,6 +144,7 @@ section.popular-courses .information a:hover{
 
 section.contact {
 margin: 20px 10px;
+font-family:Times, serif;
 }
 section.contact .col-md-6 form .col-md-6{
    padding-bottom:20px;
@@ -150,6 +158,7 @@ footer{
     font-size: 10px;
     padding: 10px;
     list-style: none;
+    font-family:Times, serif;
 }
 footer a.btn{
     background: none;
@@ -195,4 +204,13 @@ footer h4{
     background: #3a3a3a;
     color: #f5f5f5;
     padding: 3px 10px;
+}
+
+/* media query */
+
+@media screen and (max-width:768px){
+    section.header {
+        margin-top:40px;
+        background: #800000;
+    }
 }
